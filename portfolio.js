@@ -28,4 +28,11 @@ $(document).ready(function () {
         once:true
     });
 
+
+    $('.button-more').on('click', function () {
+        $(this).toggleClass('open');
+        $('.portfolio-more').toggleClass('open');
+        
+    });
+
 });
